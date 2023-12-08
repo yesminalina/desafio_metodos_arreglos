@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main>
+        <h1>Todo List</h1>
+        <section class="card-body"> 
+            <h3>Nueva tarea:</h3>
+            <input type="text" id="new-task">
+            <button id="btn-add">Agregar</button>
+        </section>
+        <section class="card-foot">
+            <div class="summary">
+                <p>Total: <span id="total"></span></p>
+                <p>Realizadas: <span id="done"></span></p>
+            </div>
+            <div class="tasks grid-container"></div>
+        </section>
+        <!-- Font Awsome -->
+        <script src="https://kit.fontawesome.com/58da1a9cab.js" crossorigin="anonymous"></script>
+        <!-- JS script -->
+        <script src="assets/js/script.js"></script>
+    </main>
+</body>
+</html>
